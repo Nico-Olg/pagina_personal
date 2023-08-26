@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel ="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Nico.</div>
+            <ul class="navItems">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">skills</a></li>
+                <li><a href="#">blog</a></li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/nicolas-olguin/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/olguin.nico/"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>Soy <span class="multiText">Nicolas Olguin</span></h1>
+                <h3>Desarrollador BackEnd y Desarrollador Mobile</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Magni voluptatem quae, doloremque asperiores minus odit quasi,
+                      nihil atque, fugiat hic sapiente ea perferendis nisi possimus tenetur rerum!
+                </p>
+                <div class="btns">
+                    <button id="downloadButton" download href="cv.pdf">Download CV</button>
+                    <button>hire me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="img.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const downloadButton = document.getElementById('downloadButton');
+    
+        downloadButton.addEventListener('click', () => {
+            window.location.href = 'cv.pdf';
+        });
+    </script>
+    
+
+</body>
+</html>
