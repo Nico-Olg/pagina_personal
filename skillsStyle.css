@@ -1,0 +1,130 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(312deg, #081b29, #082133);
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+#skills {
+    color: #3d535f;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 6em;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+#skills p {
+    text-align: start;
+    font-size: 1.2em;
+    width: 90%;
+    margin-bottom: 20px;
+    width: 80%;
+   margin: 0 auto;
+}
+
+.skills-content {
+    display: flex;
+    flex-direction: column;
+   /* align-items:start;*/
+   width: 80%;
+   margin: 0 auto;
+   
+  
+}
+
+.progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+    margin-bottom: 20px;
+    
+}
+
+.skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    color: #3d535f;
+}
+
+.val {
+
+    float: right;
+    font-style: normal;
+    color: #3d535f;
+}
+
+.progress-bar-wrap {
+    background: #dce8f8;
+    height: 10px;
+    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+}
+
+.progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #149ddd;
+    
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button, a {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #3d535f;
+    padding: 8px 14px;
+    margin: 40px 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+    transition: background-color 0.8s ease;
+}
+
+button:hover, a:hover {
+    background-color: #7f00ff;
+}
+
+@media (max-width: 768px) {
+    #skills h2 {
+        font-size: 2rem;
+    }
+    .skill {
+        font-size: 1.25rem;
+    }
+    #skills p {
+        font-size: 0.9rem;
+    }
+}
