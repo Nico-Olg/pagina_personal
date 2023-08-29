@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "LABORATORIO 4",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "LABORATORIO 4",
+		"liveServer.settings.port": 5501
+	}
+}

@@ -1,0 +1,145 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(312deg, #081b29, #082133);
+    color: #3d535f;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #3d535f;
+}
+
+
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #3d535f;
+}
+
+.resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #4e6a79;
+    position: relative;
+}
+
+.resume .resume-item h4, h5 {
+    color: #3d535f;
+}
+
+.resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+    font-size: 18px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+    padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+    padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+    padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #4e6a79;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+    min-height: auto;
+    padding-bottom: 5rem;
+}
+
+.education-row {
+    display: flex;
+    flex-wrap: nowrap;  
+    gap: 18rem;
+    justify-content: center;
+}
+
+.education-colum {
+    flex: 1 1 40rem;  
+}
+.education-colum .resume-title{
+    font-size: 3rem;
+    margin: 0 0 1.5rem 2rem;
+    color: #4e6a79;
+}
+.section-title{
+   
+    font-size: 6em;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+h4{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bs-heading-color);
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button, a {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #3d535f;
+    padding: 8px 14px;
+    margin: 40px 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+    transition: background-color 0.8s ease;
+}
+
+button:hover, a:hover {
+    background-color: #7f00ff;
+}
